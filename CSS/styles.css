@@ -18,6 +18,7 @@ body {
   color: var(--color-white);
   font-size: 2rem;
   line-height: 1.5;
+  margin: 5rem;
 }
 
 .header {
@@ -62,7 +63,7 @@ label {
   background-color: var(--color-darkblue);
   width: 50%;
   height: auto;
-  shadow: 0 0 0 8px var(--color-darkblue);
+  box-shadow: 0 0 0 8px var(--color-darkblue);
   padding: 4rem 3rem;
   margin: auto;
 }
