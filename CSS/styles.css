@@ -1,0 +1,77 @@
+@import "./normalize.css";
+
+:root {
+  --color-white: #f3f3f3;
+  --color-darkblue: rgba(27, 27, 50, 0.8);
+  --color-darkblue-alpha: rgba(24, 117, 255, 0.5);
+  --color-green: #37af65;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Helvetica Neue", Arial, sans-serif;
+  background-color: var(--color-darkblue-alpha);
+  color: var(--color-white);
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.header {
+  margin-top: 6rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-style: italic;
+}
+
+label {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.input-field {
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem 1rem;
+  box-sizing: border-box;
+  font-size: 1.8rem;
+}
+
+.input-field:hover {
+  border-color: #7db0fb;
+  outline: 0;
+  box-shadow: 0 0 0 4px rgba(24, 117, 255, 0.25);
+}
+.btn {
+  background-color: var(--color-green);
+  margin-top: 2rem;
+}
+
+.header {
+  text-align: center;
+}
+.form-group {
+  background-color: var(--color-darkblue);
+  width: 50%;
+  height: auto;
+  shadow: 0 0 0 8px var(--color-darkblue);
+  padding: 4rem 3rem;
+  margin: auto;
+}
+
+.label-inline {
+  display: block;
+}
+
+.text-area {
+  resize: none;
+  margin-top: 1rem;
+}
