@@ -1,0 +1,27 @@
+{
+  "name": "surveyform",
+  "version": "1.0.0",
+  "description": "A Survey Form",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:prod": "parcel build index.html",
+    "build:dev": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepoojajain/SurveyForm.git"
+  },
+  "keywords": [
+    "HTML5",
+    "CCS3"
+  ],
+  "author": "thepoojajain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thepoojajain/SurveyForm/issues"
+  },
+  "homepage": "https://github.com/thepoojajain/SurveyForm#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
